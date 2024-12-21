@@ -38,6 +38,7 @@
 		}
 	},
 	"require": {
+        "php": ">=7.4.0",
         "paragonie/sodium_compat": "^1.14",
 		"twig/twig": "^3.0",
 		"phpseclib/bcmath_compat": "^2.0",
@@ -62,10 +63,7 @@
 	},
     "config": {
         "vendor-dir": "vendor",
-        "bin-dir": "vendor/bin",
-		"platform": {
-			"php": "7.4.0"
-		}
+        "bin-dir": "vendor/bin"
     },
     "require-dev": {
         "php-webdriver/webdriver": "^1.4",
